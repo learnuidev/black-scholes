@@ -2,8 +2,8 @@
 
 const { getCallOptionPrice, getPutOptionPrice } = require("./utils");
 
-// Function to calculate the Black-Scholes option price
 /**
+ * Function to calculate the Black-Scholes option price
  * Black-Scholes pricing model
  * @param {number} stockPrice - Current stock price
  * @param {number} strikePrice - Option strike price

@@ -1,12 +1,8 @@
 const assert = require("assert");
 const { blackScholes } = require("../index");
+const { testData } = require("./test-data");
 
-// Example usage
-const stockPrice = 100; // Current stock price
-const strikePrice = 100; // Strike price
-const time = 1; // Time to maturity in years
-const rate = 0.05; // Risk-free interest rate
-const volatility = 0.2; // Volatility
+const { stockPrice, strikePrice, time, rate, volatility } = testData;
 
 describe("black scholes", () => {
   it("should calculate call price", () => {
