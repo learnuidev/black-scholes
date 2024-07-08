@@ -1,0 +1,21 @@
+{
+  "name": "black-scholes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [
+    "black-scholes",
+    "black",
+    "scholes",
+    "option",
+    "pricing"
+  ],
+  "author": "learnuidev@gmail.com",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
+}
