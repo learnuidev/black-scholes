@@ -3,7 +3,7 @@
   "version": "8.6.2024.14.24",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha __tests/**/*.js"
   },
   "keywords": [
     "black-scholes",
