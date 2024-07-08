@@ -25,8 +25,6 @@ describe("black scholes", () => {
       rate,
     });
 
-    console.log(backTrackedValues);
-
     assert.equal(Array.isArray(backTrackedValues), true);
     assert.equal(backTrackedValues?.length, 41);
   });
