@@ -1,6 +1,6 @@
 {
-  "name": "black-scholes",
-  "version": "1.0.0",
+  "name": "scholes",
+  "version": "08.06.2024",
   "main": "index.js",
   "scripts": {
     "test": "npx mocha"
